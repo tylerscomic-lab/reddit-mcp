@@ -1,0 +1,13 @@
+{
+  "name": "reddit-mcp",
+  "version": "1.0.0",
+  "description": "Reddit marketing MCP — find subreddits, draft posts, score ban risk, and plan campaigns",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "groq-sdk": "^1.2.0",
+    "zod": "^4.4.3"
+  }
+}
